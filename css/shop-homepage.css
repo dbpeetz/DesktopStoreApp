@@ -10,23 +10,26 @@ body {
 }
 .lead {
     color: white;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 /*TODO Adjust Carousel image size, has to do with other object size adjust during browswer size change */
 .slide-image {
-    border-radius: 30px;
-    width: 800px;
-    height: 300px;
+
+
 }
 
 .carousel-holder {
     margin-bottom: 30px;
+
     
 }
 
 .carousel-control,
 .item {
-    border-radius: 30px;
+    height: 350px;
 }
 
 .caption {
@@ -40,6 +43,7 @@ body {
 
 .thumbnail img {
     width: 100%; 
+
 }
 
 .ratings {
@@ -63,4 +67,5 @@ body {
 
 footer {
     margin: 50px 0;
+    color:white;
 }
