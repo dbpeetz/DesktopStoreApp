@@ -7,6 +7,8 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url("../img/wood-grain.jpg");
+    color:ghostwhite;
+   
 }
 
 /*TODO Adjust Carousel image size, has to do with other object size adjust during browswer size change */
@@ -18,11 +20,12 @@ body {
 
 .carousel-holder {
     margin-bottom: 30px;
+    
 }
 
 .carousel-control,
 .item {
-    border-radius: 4px;
+    border-radius: 30px;
 }
 
 .caption {
@@ -36,6 +39,8 @@ body {
 
 .thumbnail img {
     width: 100%;
+    
+    
 }
 
 .ratings {
@@ -46,6 +51,8 @@ body {
 
 .thumbnail {
     padding: 0;
+    
+    
 }
 
 .thumbnail .caption-full {
